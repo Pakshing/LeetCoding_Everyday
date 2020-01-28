@@ -36,5 +36,8 @@ class Solution:
         
         return length*(length+1) //2 - sum(nums)
             
+
+def missingNumber(self, nums):
+    return (set(range(len(nums)+1)) - set(nums)).pop()
         
         
